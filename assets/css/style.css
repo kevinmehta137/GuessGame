@@ -1,0 +1,137 @@
+#guesses {
+	text-align: center;
+}
+#guesses>li {
+	list-style: none;
+	display: inline;
+	margin-right: 4px;
+	font-size: 30px;
+	color: rgb(12, 10, 10);
+}
+.p{
+	margin-left: 8rem;
+}
+.ul{
+    margin-left: 8rem;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+/*misc*/
+#replay {
+	cursor: default;
+	transition: 1s ease;
+}
+
+span#replay:hover {
+    text-shadow: 0 0 10px white;
+	cursor: default;
+}
+
+.hide {
+	display: none;
+}
+
+.letter:hover {
+	background-color: salmon;
+}
+
+.main {
+	width: 65%;
+	margin: 60px auto;
+	overflow: hidden;
+}
+
+
+/*head content*/
+#text {
+	float: left;
+	width: 60%;
+}
+
+
+
+.num {
+	color: #AE81FF;
+}
+
+.string {
+	color: Gold;
+}
+
+.func {
+	color: SkyBlue;
+}
+
+.exprs {
+	color: #F92672;
+}
+
+.indent {
+	
+}
+
+
+
+/*svg*/
+line {
+  stroke: white;
+  stroke-width: 4;
+}
+/*button list*/
+
+
+.shadow {
+  	box-shadow: 0 1px 0 #c9cfce, 
+	    0 2px 0 #bcc2c2, 
+	    0 3px 0 #afb6b6, 
+	    0 4px 0 #a4adac, 
+	    0 5px 0 #9fa8a7,
+	    0 6px 0 #99a3a2,
+	    0 7px 0 #97a1a0,
+	    0 8px 0 #949e9d;
+}
+
+.used {
+	opacity: .4;
+	transform: translateY(4px);
+  	box-shadow: 0 1px 0 #c9cfce, 
+	   			0 2px 0 #bcc2c2, 
+			    0 3px 0 #afb6b6, 
+			    0 4px 0 #a4adac;
+}
+.h3
+{
+	margin-left: 34%
+}
+
+ul>.used:hover {
+	background-color: white ;
+	cursor: default;
+}
+.game-wrap {
+  display: block;
+margin-top: -126px;
+padding: 100px 50px 0;
+height: 500px;
+}
+
+.game-wrap small{
+margin-bottom: 30px;
+display: block;
+}
+input[type=text] {
+    width: 100%;
+	margin-left: 8rem;
+    margin-right: -10rem;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+
+#img{
+	margin-top: 5px;
+	margin-left: 50%;
+	height:47px;
+}
+
